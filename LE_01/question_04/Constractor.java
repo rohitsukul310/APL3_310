@@ -1,15 +1,16 @@
 
 class One {
+    //base class
     One(int x) {
         System.out.println("Constructor of One : " + x);
     }
 }
 
 
-class Two extends One {
+class Two extends One { //child class
     
     Two(int x) {
-        super(x); 
+        super(x); // calling x
         
                 System.out.println("Constructor of Two" );
     }
