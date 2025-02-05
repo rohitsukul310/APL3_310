@@ -76,3 +76,4 @@ public class Main {
         vikarn.kind();
     }
 }
+// 1st question
